@@ -56,6 +56,6 @@ export class DataBindingComponent {
   }
 
   onMudouValor(event: any){
-    console.log(event.novoValor)
+    // console.log(event.novoValor)
   }
 }
