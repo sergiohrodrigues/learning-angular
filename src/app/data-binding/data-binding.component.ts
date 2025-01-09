@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { InputPropertyComponent } from '../input-property/input-property.component';
+
 
 @Component({
   selector: 'app-data-binding',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, InputPropertyComponent],
   templateUrl: './data-binding.component.html',
   styleUrl: './data-binding.component.css'
 })
@@ -22,6 +24,7 @@ export class DataBindingComponent {
     nome: 'Ser',
     idade: 30
   }
+  nomeDoCurso: string = 'Typescript';
 
   urlImagem:string = 'http://lorempixel.com/400/200/nature/'
 
