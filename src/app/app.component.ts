@@ -5,11 +5,12 @@ import { CursosComponent } from './cursos/cursos.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { CicloComponent } from "./ciclo/ciclo.component";
 import { CommonModule } from '@angular/common';
+import { DiretivaNgifComponent } from "./diretiva-ngif/diretiva-ngif.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MeuPrimeiroComponent, CursosComponent, DataBindingComponent, CicloComponent, CommonModule],
+  imports: [RouterOutlet, MeuPrimeiroComponent, CursosComponent, DataBindingComponent, CicloComponent, CommonModule, DiretivaNgifComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
