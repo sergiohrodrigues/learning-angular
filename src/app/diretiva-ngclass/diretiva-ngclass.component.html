@@ -1,0 +1,9 @@
+<i class="bi" [class.bi-star]="!active" [class.bi-star-fill]="active" (click)="active = !active">
+</i>
+
+<i class="bi" [ngClass]="{ 
+        'bi-star': !active, 
+        'bi-star-fill': active 
+    }" 
+    (click)="active = !active"
+></i>

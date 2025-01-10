@@ -8,11 +8,12 @@ import { CommonModule } from '@angular/common';
 import { DiretivaNgifComponent } from "./diretiva-ngif/diretiva-ngif.component";
 import { DiretivaNgswitchComponent } from './diretiva-ngswitch/diretiva-ngswitch.component';
 import { DiretivaNgforComponent } from "./diretiva-ngfor/diretiva-ngfor.component";
+import { DiretivaNgclassComponent } from "./diretiva-ngclass/diretiva-ngclass.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MeuPrimeiroComponent, CursosComponent, DataBindingComponent, CicloComponent, CommonModule, DiretivaNgifComponent, DiretivaNgswitchComponent, DiretivaNgforComponent],
+  imports: [RouterOutlet, MeuPrimeiroComponent, CursosComponent, DataBindingComponent, CicloComponent, CommonModule, DiretivaNgifComponent, DiretivaNgswitchComponent, DiretivaNgforComponent, DiretivaNgclassComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
